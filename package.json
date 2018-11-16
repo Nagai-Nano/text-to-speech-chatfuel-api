@@ -1,0 +1,20 @@
+{
+  "name": "text-to-speech-chatfuel-api",
+  "version": "1.0.0",
+  "description": "dunno",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "Nano",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "google-translate-token": "^1.0.0",
+    "got": "^9.3.2",
+    "localtunnel": "^1.9.1",
+    "uuid": "^3.3.2"
+  }
+}
