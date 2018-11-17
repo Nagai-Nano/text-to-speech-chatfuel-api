@@ -12,7 +12,7 @@ const
 const
   app       = express(),
   port      = process.env.PORT || 1337,
-  subdomain = 'nanox'
+  subdomain = 'nhapgicungduoc'
 
 const tunnel = localtunnel(port, { subdomain }, (err, { url }) => {
   if(err) return console.log(err)
